@@ -28,7 +28,7 @@ Bu proje, Orchard Core öğrenme sürecimde geliştirdiğim çalışmalardan bir
 ---
 
 ## Proje Detayları
-
+<a target="_blanka"><img align="left" height="350" width="420" alt="𝙶𝙸𝙵" src="https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/image.gif"></a>
 - Orchard Core’un sunduğu **Blog tema şablonu** temel alınarak geliştirilmiştir.
 - Veri tabanı olarak **SQLite** kullanılmıştır. Query’ler aracılığıyla veriler sorgulanmakta ve dinamik olarak arayüze aktarılmaktadır.
 - Proje, **çoklu dil desteği** sunacak şekilde yapılandırılmıştır:
