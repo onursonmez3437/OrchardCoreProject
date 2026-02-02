@@ -1,0 +1,138 @@
+2025-08-21 09:09:48.9830||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-08-21 09:09:49.0276||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-08-21 09:09:49.0276||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp 
+2025-08-21 10:26:53.8366|Default|00-601962a5f68f46dd6d0dbac7bc1a6c31-ee1badb67e9ec288-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at OrchardCore.ContentManagement.DefaultContentManager.PopulateAspectAsync[TAspect](IContent content, TAspect aspect)
+   at OrchardCore.Lists.Feeds.ListFeedQuery.MatchAsync(FeedContext context)
+   at OrchardCore.Feeds.Controllers.FeedController.Index(String format)
+   at lambda_method2896(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at OrchardCore.ContentManagement.DefaultContentManager.PopulateAspectAsync[TAspect](IContent content, TAspect aspect)
+   at OrchardCore.Lists.Feeds.ListFeedQuery.MatchAsync(FeedContext context)
+   at OrchardCore.Feeds.Controllers.FeedController.Index(String format)
+   at lambda_method2896(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-21 11:06:55.0213||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-08-21 11:06:55.0730||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-08-21 11:06:55.0730||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp 
+2025-08-21 11:09:01.3300||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-08-21 11:09:01.3636||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-08-21 11:09:01.3636||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp 
+2025-08-21 11:13:56.0106|Default|00-980a233c07d5d91c2e1b489d349b7e70-0834b584a6069989-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'merso.jpeg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-08-21 11:14:28.3990||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-08-21 11:14:28.4617||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-08-21 11:14:28.4617||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp 
+2025-08-21 11:14:43.1753|Default|00-244c555fc8f9f94fc9d48534f40b158b-ad3f2b207eaff48c-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'merso.jpeg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-08-21 11:14:53.3565|Default|00-6fc2e4a8a3d0cf0dec51294f7ba8018c-19798be2b48792d6-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'merso.jpeg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-08-21 11:15:01.4589|Default|00-5625e93ffad9a5a334e3aa3824eab691-8caad7572064567f-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'merso.jpeg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-08-21 11:15:08.7790|Default|00-a4dda3a78d76dda7b18c286a7c61f54e-1b56428918957ce4-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'merso.jpeg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-08-21 11:19:56.3379|Default|00-f7d082815c67063c39fa92c9d53f0984-f2920e6b37a3d0c6-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'mersos.jpeg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-08-21 11:20:06.0105|Default|00-9e0cf018965b64912fa2d1b48718ff9b-34d0691d9ededbd2-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'mersos.jpeg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-08-21 14:22:39.2183||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-08-21 14:22:39.2926||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-08-21 14:22:39.2981||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp 
+2025-08-21 16:22:38.2718||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-08-21 16:22:38.3197||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-08-21 16:22:38.3197||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp 

@@ -1,0 +1,51 @@
+2025-08-17 20:28:44.3512||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-08-17 20:28:44.3786||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-08-17 20:28:44.3786||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onurs\denemeVue\MyOrchardApp 
+2025-08-17 20:29:22.3533|Default|00-516f8f882d8c6594851f7e64a7f0709e-64974d67ff9ee42e-00||OrchardCore.Data.DbConnectionValidator|WARN|Unable to validate connection string. System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySqlConnector.MySqlConnectionStringBuilder..ctor(String connectionString) in /_/src/MySqlConnector/MySqlConnectionStringBuilder.cs:line 33
+   at MySqlConnector.Core.ConnectionPool.GetPool(String connectionString, MySqlConnectorLoggingConfiguration loggingConfiguration, Boolean createIfNotFound) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 528
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+   at OrchardCore.Data.DbConnectionValidator.ValidateAsync(DbConnectionValidatorContext context)    at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySqlConnector.MySqlConnectionStringBuilder..ctor(String connectionString) in /_/src/MySqlConnector/MySqlConnectionStringBuilder.cs:line 33
+   at MySqlConnector.Core.ConnectionPool.GetPool(String connectionString, MySqlConnectorLoggingConfiguration loggingConfiguration, Boolean createIfNotFound) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 528
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+   at OrchardCore.Data.DbConnectionValidator.ValidateAsync(DbConnectionValidatorContext context)
+2025-08-17 20:39:08.0265|Default|00-4449993deb031b1f5a65893b219a76f5-af54b2831d3e4747-00||OrchardCore.Data.DbConnectionValidator|WARN|Unable to validate connection string. System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySqlConnector.MySqlConnectionStringBuilder..ctor(String connectionString) in /_/src/MySqlConnector/MySqlConnectionStringBuilder.cs:line 33
+   at MySqlConnector.Core.ConnectionPool.GetPool(String connectionString, MySqlConnectorLoggingConfiguration loggingConfiguration, Boolean createIfNotFound) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 528
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+   at OrchardCore.Data.DbConnectionValidator.ValidateAsync(DbConnectionValidatorContext context)    at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySqlConnector.MySqlConnectionStringBuilder..ctor(String connectionString) in /_/src/MySqlConnector/MySqlConnectionStringBuilder.cs:line 33
+   at MySqlConnector.Core.ConnectionPool.GetPool(String connectionString, MySqlConnectorLoggingConfiguration loggingConfiguration, Boolean createIfNotFound) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 528
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+   at OrchardCore.Data.DbConnectionValidator.ValidateAsync(DbConnectionValidatorContext context)
+2025-08-17 20:39:26.3220|Default|00-77091c6824ba86dc51175a8f05d64d38-5836cda6a7fda297-00||OrchardCore.Data.DbConnectionValidator|WARN|Unable to validate connection string. System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySqlConnector.MySqlConnectionStringBuilder..ctor(String connectionString) in /_/src/MySqlConnector/MySqlConnectionStringBuilder.cs:line 33
+   at MySqlConnector.Core.ConnectionPool.GetPool(String connectionString, MySqlConnectorLoggingConfiguration loggingConfiguration, Boolean createIfNotFound) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 528
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+   at OrchardCore.Data.DbConnectionValidator.ValidateAsync(DbConnectionValidatorContext context)    at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySqlConnector.MySqlConnectionStringBuilder..ctor(String connectionString) in /_/src/MySqlConnector/MySqlConnectionStringBuilder.cs:line 33
+   at MySqlConnector.Core.ConnectionPool.GetPool(String connectionString, MySqlConnectorLoggingConfiguration loggingConfiguration, Boolean createIfNotFound) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 528
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+   at OrchardCore.Data.DbConnectionValidator.ValidateAsync(DbConnectionValidatorContext context)

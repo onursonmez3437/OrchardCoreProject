@@ -1,0 +1,25 @@
+2025-11-12 09:25:24.5720||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-12 09:25:24.6322||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-12 09:25:24.6373||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-12 11:28:55.5561|Default|00-043cc7955c608c37efcd2bdea3bcc274-4186715cd5450128-00||OrchardCore.Search.Lucene.Controllers.AdminController|ERROR|Error while executing query Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: S. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass27_0.<<Query>b__0>d.MoveNext()    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass27_0.<<Query>b__0>d.MoveNext()
+2025-11-12 14:00:33.6319||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-12 14:00:34.0447||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-12 14:00:34.1027||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-12 14:34:01.8301||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-12 14:34:01.9002||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-12 14:34:01.9059||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-12 14:39:16.4434||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-12 14:39:16.4936||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-12 14:39:16.4972||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-12 15:16:01.9324||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-12 15:16:01.9840||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-12 15:16:01.9840||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 

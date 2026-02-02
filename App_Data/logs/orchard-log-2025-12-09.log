@@ -1,0 +1,60 @@
+2025-12-09 11:27:13.3926||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-09 11:27:13.5995||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-09 11:27:13.6198||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-12-09 16:13:02.6530|Default|00-42f24a2278c8c0aec626ba12cd7023b3-cab9bb6709df6148-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'IMG_8255.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:32:41.9012||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-09 17:32:41.9634||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-09 17:32:41.9634||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-12-09 17:54:01.8630|Default|00-3ff8f70e818a29c522d841d79984ed85-5166b028cd45d972-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'albert-posiadala.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:54:01.8630|Default|00-eb7139d053f7e3ec50678abf5562d72f-5baa0ab63c2e0e9c-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'efe-yigit-ust.png' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:54:01.8630|Default|00-66ebbe06a3cc209296169a2b32135571-37e503cb2d87158b-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'okan-kocuk.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:54:01.8630|Default|00-a97efb60880094c47746c3e0a1ef111d-d29bb050fc49c5ab-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'efe-berat-toruz.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:54:48.6453|Default|00-9a8620a0ee092eb74d1194d2c1bc0ba4-c43f7d2f1d94519f-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'okan-kocuk.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:54:48.6453|Default|00-8fd633d97f9d5085f9d1a091bce16cbf-f8693783bae09316-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'albert-posiadala.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:54:51.5157|Default|00-625781d49bcef07dd0af217f36fe3e3a-54fd22b13a1c87db-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'efe-berat-toruz.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-12-09 17:54:51.8532|Default|00-5683c9af85154a69c975900ff490e80f-2021c3a2412df57e-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'efe-yigit-ust.png' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()

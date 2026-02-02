@@ -1,0 +1,4 @@
+2025-12-12 01:19:58.7832|Default|0HNHP0DLR86JV||YesSql|WARN|The default capacity of the BatchCommand StringBuilder 10240 might not be sufficient. It can be increased with BatchCommand.DefaultBuilderCapacity to at least 31632 
+2025-12-12 11:36:31.4478||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-12 11:36:31.5068||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-12 11:36:31.5068||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 

@@ -1,0 +1,27 @@
+2025-11-13 09:35:28.1363||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-13 09:35:28.2075||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-13 09:35:28.2075||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-13 10:17:19.1986||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-13 10:17:19.2917||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-13 10:17:19.2984||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-13 12:06:56.3537||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-13 12:06:56.4506||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-13 12:06:56.4506||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-13 13:48:42.3037||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-13 13:48:42.4074||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-13 13:48:42.4074||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
+2025-11-13 17:27:31.7474|Default|00-b8765dee2dd353abda76ec30740ff615-d53fe9741da0e86e-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'post-bg.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-11-13 17:28:18.9493|Default|00-91965e74eb083e76f93f3c8e60e46594-f9e620a4f2480dd5-00||OrchardCore.Media.Controllers.AdminController|ERROR|An error occurred while uploading a media OrchardCore.FileStorage.FileStoreException: Cannot create file 'post-bg.jpg' because it already exists.
+   at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()    at OrchardCore.FileStorage.FileSystem.FileSystemStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Core.DefaultMediaFileStore.CreateFileFromStreamAsync(String path, Stream inputStream, Boolean overwrite)
+   at OrchardCore.Media.Controllers.AdminController.<>c__DisplayClass17_0.<<Upload>b__1>d.MoveNext()
+2025-11-13 17:45:17.4407||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-13 17:45:17.4904||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-13 17:45:17.4997||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\onusonmez\Desktop\MyOrchardApp - Copy 
