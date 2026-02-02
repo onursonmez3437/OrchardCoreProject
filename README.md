@@ -11,7 +11,7 @@
   - Liquid template yapısı
   - Medya yönetimi
   - SEO çalışmaları
-  - Query’ler ile veri çekme ve ekrana basma
+  - Query’ler ile veri çekme ve ekrana basma( Belirli tipteki içerikleri çekme, Tüm yayından kaldırılanları tekrar yayına alma, Tarihsel işlemler)
   - SQLite veri tabanı kullanımı ve yönetimi
 - **YouTube API** entegrasyonu ile harici bir kaynaktan veri çekerek uygulama içerisinde dinamik olarak görüntüledim.
 - Gerçek bir senaryo üzerinden, **sıfırdan gelişmiş bir proje geliştirip canlıya hazır hale getirme** deneyimi kazandım.
