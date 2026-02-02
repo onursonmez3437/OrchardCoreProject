@@ -48,12 +48,15 @@ Bu proje, Orchard Core öğrenme sürecimde geliştirdiğim çalışmalardan bir
 
 ---
 
-<h1 align="center">💻 PROJE GÖRSELLERİ 💻</h1>
+## 💻 Proje Görselleri
 
-<a target="_blank"><img align="left" height="500" width="400" src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/ilk%20a%C3%A7%C4%B1l%C4%B1%C5%9F.png?raw=true"></a>
-<a target="_blank"><img align="left" height="500" width="400" src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/anasayfa%20futbolcular.png?raw=true"></a>
-<a target="_blank"><img align="left" height="500" width="400" src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/store55%20alan%C4%B1.png?raw=true"></a>
-<a target="_blank"><img align="left" height="500" width="400" src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/anasayfa%20ma%C3%A7%20merkezi.png?raw=true"></a>
-<a target="_blank"><img align="left" height="500" width="400" src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/header%20footer.png?raw=true"></a>
-<a target="_blank"><img align="left" height="500" width="400" src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/hakk%C4%B1mda.png?raw=true"></a>
-<a target="_blank"><img align="left" height="500" width="400" src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/timeline.png?raw=true"></a>
+| Görsel | Açıklama |
+|------|---------|
+| <img src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/ilk%20a%C3%A7%C4%B1l%C4%B1%C5%9F.png?raw=true" width="500"/> | **Anasayfa ilk yüklendiğinde karşımıza çıkan pop-up ekranı** |
+| <img src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/anasayfa%20futbolcular.png?raw=true" width="500"/> | **Anasayfada futbolcuların dinamik olarak ekrana basılması** |
+| <img src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/store55%20alan%C4%B1.png?raw=true" width="500"/> | **Store 55 alanı** |
+| <img src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/anasayfa%20ma%C3%A7%20merkezi.png?raw=true" width="500"/> | **Maç merkezi ve günün futbol maçları** |
+| <img src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/header%20footer.png?raw=true" width="500"/> | **Header ve footer alanları** |
+| <img src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/hakk%C4%B1mda.png?raw=true" width="500"/> | **Hakkımda sayfası** |
+| <img src="https://github.com/onursonmez3437/OrchardCoreProject/blob/main/App_Data/Sites/Default/Media/timeline.png?raw=true" width="500"/> | **Timeline alanı** |
+
